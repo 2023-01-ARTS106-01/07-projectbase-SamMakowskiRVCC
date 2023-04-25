@@ -10,7 +10,7 @@ public class FlashlightFollow : MonoBehaviour
     void LateUpdate()
     {
         transform.position = thingToFollow.transform.position 
-                                 + new Vector3 (0,0.8f,0);
+                                 + new Vector3 (0.2f,-0.2f,0.2f);
         
     }
 
